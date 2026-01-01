@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O que é Mindset?</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            color: white;
+            margin-bottom: 40px;
+            padding: 40px 20px;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+
+        .subtitle {
+            font-size: 1.2em;
+            opacity: 0.95;
+        }
+
+        .content {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            margin-bottom: 30px;
+        }
+
+        .section {
+            margin-bottom: 35px;
+        }
+
+        .section h2 {
+            color: #667eea;
+            font-size: 2em;
+            margin-bottom: 15px;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 10px;
+        }
+
+        .section p {
+            line-height: 1.8;
+            font-size: 1.1em;
+            margin-bottom: 15px;
+            color: #555;
+        }
+
+        .mindset-types {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            margin-top: 30px;
+        }
+
+        .mindset-card {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .mindset-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+        }
+
+        .mindset-card h3 {
+            color: #764ba2;
+            font-size: 1.5em;
+            margin-bottom: 15px;
+        }
+
+        .mindset-card ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .mindset-card li {
+            padding: 8px 0;
+            padding-left: 25px;
+            position: relative;
+            color: #444;
+        }
+
+        .mindset-card li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #667eea;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
+        .highlight {
+            background: linear-gradient(120deg, #ffd89b 0%, #19547b 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 15px;
+            margin: 30px 0;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+
+        .highlight h3 {
+            font-size: 1.8em;
+            margin-bottom: 15px;
+        }
+
+        .tips {
+            background: #f8f9fa;
+            padding: 25px;
+            border-left: 5px solid #667eea;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        .tips h4 {
+            color: #667eea;
+            margin-bottom: 15px;
+            font-size: 1.3em;
+        }
+
+        .tips ol {
+            padding-left: 25px;
+        }
+
+        .tips li {
+            padding: 10px 0;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        footer {
+            text-align: center;
+            color: white;
+            padding: 20px;
+            margin-top: 40px;
+            opacity: 0.9;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2em;
+            }
+
+            .content {
+                padding: 25px;
+            }
+
+            .mindset-types {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>O que é Mindset?</h1>
+            <p class="subtitle">Entenda como sua mentalidade molda sua realidade</p>
+        </header>
+
+        <div class="content">
+            <div class="section">
+                <h2>Definição</h2>
+                <p>
+                    <strong>Mindset</strong> é um termo em inglês que significa "mentalidade" ou "configuração da mente".
+                    Refere-se ao conjunto de crenças, atitudes e pensamentos que uma pessoa possui e que influenciam
+                    diretamente como ela percebe e reage às situações da vida.
+                </p>
+                <p>
+                    O conceito foi popularizado pela psicóloga Carol Dweck, da Universidade de Stanford, e tornou-se
+                    fundamental para entender como as pessoas abordam desafios, aprendizado e desenvolvimento pessoal.
+                </p>
+            </div>
+
+            <div class="highlight">
+                <h3>Por que o Mindset é importante?</h3>
+                <p>
+                    Seu mindset determina como você interpreta eventos, enfrenta obstáculos e busca objetivos.
+                    Ele pode ser a diferença entre desistir diante de um desafio ou persistir até alcançar o sucesso.
+                </p>
+            </div>
+
+            <div class="section">
+                <h2>Tipos Principais de Mindset</h2>
+                <div class="mindset-types">
+                    <div class="mindset-card">
+                        <h3>🚫 Mindset Fixo</h3>
+                        <ul>
+                            <li>Acredita que habilidades são inatas</li>
+                            <li>Evita desafios por medo de falhar</li>
+                            <li>Vê esforço como inútil</li>
+                            <li>Ignora feedback crítico</li>
+                            <li>Sente-se ameaçado pelo sucesso dos outros</li>
+                        </ul>
+                    </div>
+
+                    <div class="mindset-card">
+                        <h3>✨ Mindset de Crescimento</h3>
+                        <ul>
+                            <li>Acredita que pode desenvolver habilidades</li>
+                            <li>Abraça desafios como oportunidades</li>
+                            <li>Vê esforço como caminho para maestria</li>
+                            <li>Aprende com críticas</li>
+                            <li>Inspira-se no sucesso dos outros</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>Outros Tipos de Mindset</h2>
+                <div class="mindset-types">
+                    <div class="mindset-card">
+                        <h3>💼 Mindset Empreendedor</h3>
+                        <ul>
+                            <li>Foco em soluções e oportunidades</li>
+                            <li>Tolerância a riscos calculados</li>
+                            <li>Visão de longo prazo</li>
+                            <li>Busca constante por inovação</li>
+                        </ul>
+                    </div>
+
+                    <div class="mindset-card">
+                        <h3>🎯 Mindset Positivo</h3>
+                        <ul>
+                            <li>Otimismo diante de adversidades</li>
+                            <li>Gratidão pelas experiências</li>
+                            <li>Foco nas possibilidades</li>
+                            <li>Resiliência emocional</li>
+                        </ul>
+                    </div>
+
+                    <div class="mindset-card">
+                        <h3>🧠 Mindset Digital</h3>
+                        <ul>
+                            <li>Adaptação às tecnologias</li>
+                            <li>Aprendizado contínuo</li>
+                            <li>Colaboração virtual</li>
+                            <li>Inovação constante</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tips">
+                <h4>Como Desenvolver um Mindset de Crescimento</h4>
+                <ol>
+                    <li><strong>Aceite os desafios:</strong> Veja-os como oportunidades de aprender e crescer.</li>
+                    <li><strong>Aprenda com os erros:</strong> Falhas são parte essencial do processo de aprendizado.</li>
+                    <li><strong>Valorize o esforço:</strong> Reconheça que o trabalho duro leva ao desenvolvimento.</li>
+                    <li><strong>Busque feedback:</strong> Use críticas construtivas para melhorar continuamente.</li>
+                    <li><strong>Inspire-se nos outros:</strong> Aprenda com o sucesso de pessoas ao seu redor.</li>
+                    <li><strong>Pratique a autocompaixão:</strong> Seja gentil consigo mesmo durante o processo.</li>
+                    <li><strong>Cultive a curiosidade:</strong> Mantenha-se aberto a novas ideias e perspectivas.</li>
+                    <li><strong>Celebre o progresso:</strong> Reconheça pequenas vitórias no caminho.</li>
+                </ol>
+            </div>
+
+            <div class="section">
+                <h2>Impacto do Mindset na Vida</h2>
+                <p>
+                    O mindset influencia praticamente todas as áreas da vida, incluindo:
+                </p>
+                <ul style="padding-left: 40px; line-height: 2; color: #555;">
+                    <li><strong>Carreira profissional:</strong> Determina como você lida com desafios e oportunidades</li>
+                    <li><strong>Relacionamentos:</strong> Afeta como você se comunica e resolve conflitos</li>
+                    <li><strong>Saúde:</strong> Influencia hábitos e perseverança em metas de bem-estar</li>
+                    <li><strong>Educação:</strong> Define sua abordagem ao aprendizado e desenvolvimento</li>
+                    <li><strong>Sucesso pessoal:</strong> Molda sua capacidade de alcançar objetivos</li>
+                </ul>
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; 2026 - Entendendo o Mindset | Transforme sua mentalidade, transforme sua vida</p>
+        </footer>
+    </div>
+</body>
+</html>
